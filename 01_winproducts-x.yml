@@ -1,0 +1,76 @@
+name: WinProducts X - Her Gun 2 Gorselli Tweet
+
+on:
+  schedule:
+    # Istanbul permanent UTC+3: 12:30 and 19:30, and +30 min fallback checks.
+    - cron: '30 9,16 * * *'
+    - cron: '0 10,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: winproducts-x-publisher
+  cancel-in-progress: false
+
+jobs:
+  prepare-and-publish:
+    # Public repo safety: do not execute scheduled content or publish until
+    # repo owner deliberately enables the gate in Actions variables.
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ARMED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest code and persisted state
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Catch up with latest state
+        run: git pull --ff-only origin "${GITHUB_REF_NAME}"
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install image renderer and X client
+        run: npm install --no-audit --no-fund --package-lock=false
+      - name: Run all content, image and publisher tests
+        run: npm test
+      - name: Prepare two Turkish posts with exactly one original visual each
+        env:
+          AI_ENABLED: ${{ vars.AI_ENABLED }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: node src/prepare.js
+      - name: Review preview or publish due posts
+        env:
+          PUBLISH_ENABLED: ${{ vars.PUBLISH_ENABLED }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node src/index.js
+      - name: Save poster manifest as downloadable audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: winproducts-post-review-${{ github.run_id }}
+          path: |
+            data/tweets.json
+            data/tweets.yaml
+            assets/generated/*.png
+            logs/tweet-log.jsonl
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Persist campaign, publishing state and logs
+        # Commit even if X returned an ambiguous error: uncertain tweet IDs must be quarantined.
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/campaign.json state/post-history.json state/selected-research.json data/tweets.json data/tweets.yaml logs/tweet-log.jsonl 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: track WinProducts X publication state [skip ci]'
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

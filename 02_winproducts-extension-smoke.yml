@@ -1,0 +1,32 @@
+name: WinProducts Chrome Eklentisi - Resmi Surum Testi
+
+# The test never logs in to the user account or publishes an X post.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  official-extension-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python / Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download original WinProducts CRX from Google Chrome Web Store
+        run: python3 scripts/install_winproducts_extension.py
+      - name: Test official CRX3 parser and installer
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Install Playwright Chromium and Linux dependencies
+        run: |
+          npm install --no-audit --no-fund --package-lock=false
+          npx playwright install --with-deps chromium
+          sudo apt-get update -qq
+          sudo apt-get install -y scrot xvfb
+      - name: Verify extension loads in isolated Chromium
+        run: xvfb-run -a --server-args='-screen 0 1600x900x24' node src/extension-smoke.js
+      # Do not persist browser profiles, extension code, tokens, or auth cookies.

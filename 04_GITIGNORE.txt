@@ -1,0 +1,29 @@
+node_modules/
+.env
+.env.*
+!.env.example
+logs/*
+!logs/.gitkeep
+.DS_Store
+
+# Generated PNG images are uploaded as Actions artifacts; do not bloat git history.
+assets/generated/*
+!assets/generated/.gitkeep
+previews/
+# Only approved source captures, never cookies or Chrome profiles.
+assets/sources/*
+!assets/sources/.gitkeep
+!assets/sources/*.png
+!assets/sources/*.jpg
+!assets/sources/*.jpeg
+!assets/sources/*.webp
+# Log of publication IDs and errors
+!logs/tweet-log.jsonl
+
+.browser-profile/
+extension-unpacked/
+data/research-candidates.json
+assets/sources/**/*.png
+
+# Download the original WinProducts extension directly from Google at runtime.
+.extensions/

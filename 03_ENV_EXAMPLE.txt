@@ -1,0 +1,18 @@
+# .env.example — sample only. Do not commit real credentials.
+PUBLISH_ENABLED=false
+AI_ENABLED=false
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-4.1-mini
+X_API_KEY=
+X_API_KEY_SECRET=
+X_ACCESS_TOKEN=
+X_ACCESS_TOKEN_SECRET=
+
+# Not required when the WinProducts Chrome Web Store extension is installed on desktop.
+WINPRODUCTS_EXTENSION_DIR=
+# The isolated browser profile is always within .browser-profile/.
+# Interactive setup is the default before automation selectors are verified.
+WINPRODUCTS_OPEN_SELECTOR=
+WINPRODUCTS_PANEL_READY_SELECTOR=
+WINPRODUCTS_SECOND_TAB_SELECTOR=
+ALLOW_ILLUSTRATIVE_PREVIEW=false
