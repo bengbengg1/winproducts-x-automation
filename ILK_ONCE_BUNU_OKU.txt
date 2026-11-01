@@ -1,0 +1,21 @@
+WINPRODUCTS X OTOMASYONU — TEK ZIP, EKSIKSIZ KAYNAK DOSYALAR
+
+Bu arsivde ikinci bir ZIP veya ic ice proje klasoru YOKTUR.
+Arsivi actiginizda README.md, package.json, src/, data/, tests/, .github/ vb. DOGRU KLASOR YAPISINI goreceksiniz.
+Klasorlerin korunmasi gerekir: src/ altindaki JavaScript dosyalari ve .github/workflows altindaki GitHub Actions dosyalari yerlerinde kalmalidir.
+
+ONEMLI — iPhone Dosyalar uygulamasi basinda nokta olan dosya ve klasorleri (ornegin .github, .env.example, .gitignore) gizleyebilir. Dosyalar arsivin icindedir. DOSYA_LISTESI.txt tum dosyalari sayar.
+
+GITHUB'A YUKLEME: Github.com'a ZIP'in kendisini tek dosya olarak yuklemeyin! GitHub ZIP'i kendisi acar ve kodlara donusturmez. Arsivi ACIP icindekileri klasor yapisini koruyarak yukleyin.
+Bir bilgisayarda git kullanimi (depo bos ise):
+  git clone https://github.com/bengbengg1/winproducts-x-automation.git
+  # Zip icindekileri klonlanan winproducts-x-automation/ icine kopyalayin
+  cd winproducts-x-automation
+  git add .
+  git commit -m 'Add WinProducts X automation starter'
+  git push origin main
+
+PUBLIC DEPO: SIFRE, API ANAHTARI, CHROME OTURUMU, COOKIE VE PROFIL DOSYALARINI ASLA YUKLEMEYIN.
+PUBLISH_ENABLED ve AUTOMATION_ARMED degiskenleri varsayilan olarak etkin DEGILDIR.
+Gercek WinProducts eklentisiyle bulutta yan panelden otomatik ekran goruntusu alma henuz canli dogrulanmamistir.
+README.md ve SECURITY.md icindeki uyari ve kurulum adimlarini okuyun.

@@ -1,0 +1,152 @@
+[
+  {
+    "category": "stores",
+    "linked": "Bir Shopify mağazasına bakarken ilk kontrol ettiğim şey ürün sayısı değil. Trafik kaynağı ve ürün odağı çoğu zaman daha iyi bir başlangıç noktası.",
+    "plain": "Bir mağazada yüzlerce ürün bulunması başarı göstergesi değil. Bazen tek bir ürünün güçlü konumlandırması, kocaman bir katalogdan daha anlaşılır bir teklif sunar."
+  },
+  {
+    "category": "products",
+    "linked": "Viral bir ürün buldunuz. Peki talep kalıcı mı? Ürünün ne kadar zamandır listelendiğini ve benzerlerini incelemek ilk filtre olabilir.",
+    "plain": "Viral ürün araştırırken yalnızca görüntülenmeye bakmayın. Ürün fiyatı, teslimat beklentisi, müşteri yorumu ve rakiplerin sunduğu paketler de işin bir parçası."
+  },
+  {
+    "category": "ads",
+    "linked": "Aynı ürünü satan iki mağaza düşünün. Farkı bazen ürün değil, reklamın ilk üç saniyesindeki problem anlatımı yaratır.",
+    "plain": "Reklam kreatifi araştırırken şu soruyu sorun: İnsan videoyu ilk kez gördüğünde hangi sorununun çözüldüğünü anlayabiliyor mu? Netlik çoğu zaman süsten değerlidir."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir mağazanın ana sayfası güzel olabilir. Asıl soru şu: Reklamdan gelen ziyaretçi için doğru ürün sayfası ve açık bir teklif var mı?",
+    "plain": "Trafik artışı sevindirici bir sinyal. Ama trafik, sipariş ve kârlılık farklı metrikler. Üçünü birbirinin yerine koymak yanlış karar verdirebilir."
+  },
+  {
+    "category": "products",
+    "linked": "Bir ürünü popüler yapan şeyi araştırırken işlevinden önce kullanım senaryosuna bakın. İnsanlar ürünü hangi anda ihtiyaç olarak görüyor?",
+    "plain": "Ürün araştırmasında rakibi kopyalamak ile pazarı anlamak aynı şey değil. İyi araştırma, müşterinin neden satın aldığını keşfetmekle başlar."
+  },
+  {
+    "category": "ads",
+    "linked": "Bir Meta reklamı uzun süredir yayındaysa incelemeye değer olabilir. Ancak yayın süresi tek başına kâr ya da başarı kanıtı değildir.",
+    "plain": "Reklam kütüphanesine bakarken tek kareyi değil, açılış mesajını, gösterilen kanıtı ve çağrıyı birlikte değerlendirin. Kreatifin bir akışı var."
+  },
+  {
+    "category": "stores",
+    "linked": "Shopify araştırmasında bir detay çok şey anlatır: Mağaza belirgin bir müşteri kitlesine mi sesleniyor, yoksa herkese bir şey satmaya mı çalışıyor?",
+    "plain": "İyi bir mağaza analizinde önce müşteri kitlesini tarif edin. Kime sattığını anlatamıyorsanız ürün seçimindeki avantajını da anlamak zordur."
+  },
+  {
+    "category": "tips",
+    "linked": "Ürün fiyatını rakipten düşük yapmak her zaman avantaj değildir. Paket, teklif ve teslimat algısı da fiyat kadar değerlidir.",
+    "plain": "Fiyat rekabetine girmeden önce teklifinizi karşılaştırın: Ürün aynı olsa bile garanti, paket içeriği ve kullanım kolaylığı farklı değerler yaratabilir."
+  },
+  {
+    "category": "products",
+    "linked": "Bir ürün videosu dikkat çekiyor diye talep kesinleşmiş olmaz. Yorumlar, tekrar eden sorular ve ürün alternatifleri daha fazla ipucu verir.",
+    "plain": "Trend ürün ararken \"bunu kim alır?\" sorusu yetmez. \"Neden şimdi alır?\" sorusu bazen daha öğreticidir."
+  },
+  {
+    "category": "stores",
+    "linked": "Mağaza araştırmasında filtreleri doğru kullanmak zaman kazandırır. Kategori, trafik ve katalog büyüklüğünü beraber düşünün.",
+    "plain": "Rakip mağaza incelerken tek bir ekran görüntüsü yetmez. Ürün sayfası, teslimat bilgisi, iade politikası ve ödeme deneyimi birlikte değerlendirilmeli."
+  },
+  {
+    "category": "ads",
+    "linked": "Reklamlarda aynı ürün farklı açılarla sunulabilir: sorun, sonuç, karşılaştırma veya deneyim. Hangi açının kullanıldığını not edin.",
+    "plain": "Bir reklamın \"kazandığını\" söylemek için harcama ve sonuç verileri gerekir. Reklam kütüphanesi ise yalnızca gözlemlenebilen yaratıcı sinyalleri gösterir."
+  },
+  {
+    "category": "products",
+    "linked": "Çok satan bir ürünün Türkiye için de uygun olduğu varsayımı tehlikeli. Fiyat duyarlılığı ve lojistik koşullar pazara göre değişir.",
+    "plain": "İyi ürün araştırması ürün bulmakla bitmez. Hedef pazarda fiyat, teslimat süresi ve tüketici beklentisi yeniden değerlendirilir."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir Shopify mağazasında ürün çeşitliliği, fiyat basamakları ve ana kategori birlikte incelendiğinde marka stratejisi daha görünür olur.",
+    "plain": "Bir niş mağaza ile genel mağazayı aynı metrikle kıyaslamak yanıltabilir. Müşteri niyeti, sepet büyüklüğü ve tekrar satın alma davranışı farklı olabilir."
+  },
+  {
+    "category": "ads",
+    "linked": "Bir reklamın güçlü tarafı bazen görüntü değil, ürünün kullanımını ne kadar hızlı gösterdiğidir. Videonun girişini özellikle inceleyin.",
+    "plain": "Ürünün faydasını anlatmak başka, faydayı göstermek başka. Kreatiflerde küçük bir kullanım demosu uzun bir özellik listesinden daha anlaşılır olabilir."
+  },
+  {
+    "category": "tips",
+    "linked": "Ürün sayfasına trafik getiriyorsunuz ama satış gelmiyor mu? Reklam mesajıyla sayfanın ilk ekranı aynı vaadi taşıyor mu diye kontrol edin.",
+    "plain": "Reklamda \"hızlı kurulum\" diyorsanız ürün sayfasında ziyaretçiye bambaşka bir şey göstermeyin. Mesaj tutarlılığı güven oluşturmanın temelidir."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir mağazada ilk bakılacak alanlardan biri ürün koleksiyonlarıdır. Kategori yapısı mağazanın nasıl bir alışveriş yolculuğu tasarladığını gösterir.",
+    "plain": "Rakip analizi yalnızca \"ne satıyorlar?\" değildir. Hangi ürünleri öne çıkarıyorlar, hangi itirazları cevaplıyorlar ve müşteriyi nasıl yönlendiriyorlar?"
+  },
+  {
+    "category": "products",
+    "linked": "Yükselişteki bir ürün gördüğünüzde ürünün tekli fiyatını değil, paket tekliflerini de inceleyin. Asıl fark çoğu zaman oradadır.",
+    "plain": "İndirim etiketi tek başına iyi teklif oluşturmaz. Müşterinin neden bugün alması gerektiği anlaşılmıyorsa fiyatı düşürmek sorunu çözmeyebilir."
+  },
+  {
+    "category": "ads",
+    "linked": "Meta reklamlarını incelerken sadece görsel benzerlik aramayın. Kanca, kanıt, teklif ve CTA sırasını ayrı ayrı not edin.",
+    "plain": "Aynı kreatifi başka bir markada kopyalamak yerine neden işe yarayabileceğini çözmek daha değerli. Format değil, altında yatan hipotez taşınabilir."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir mağazanın büyümesini değerlendirirken tek günlük trafik tahminiyle hüküm vermeyin. Zaman içindeki değişim daha anlamlı olabilir.",
+    "plain": "Tahmini trafik ve tahmini ciro raporları araştırma sinyalidir, muhasebe kaydı değil. Analizde bu ayrımı açıkça belirtmek güvenilirliği artırır."
+  },
+  {
+    "category": "products",
+    "linked": "Bir ürün trendinin ömrünü kestirmek kolay değil. Mevsimsellik, tekrar satın alma ve günlük hayattaki kullanım sıklığına birlikte bakın.",
+    "plain": "Geçici trend ile kalıcı ihtiyaç farklı stratejiler gerektirir. Kısa ilgi patlaması gördüğünüz her ürünü uzun vadeli markaya çeviremezsiniz."
+  },
+  {
+    "category": "ads",
+    "linked": "Reklam kütüphanesinde aynı markanın birden fazla mesaj denemesi araştırmaya değer. Hangi müşteri itirazına yanıt verdiklerini bulun.",
+    "plain": "Kreatif araştırması yaparken yalnızca yüksek sesli vaatleri kaydetmeyin. Müşteri yorumunun, gerçek kullanımın ve basit açıklamanın nerede kullanıldığına bakın."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir Shopify mağazasında ziyaretçi yolu net mi? Ana sayfadan ürüne, üründen ödeme adımına geçişte gereksiz sürtünme var mı?",
+    "plain": "Dönüşüm optimizasyonu bazen yeni bir araç eklemek değil, müşterinin kafasını karıştıran bir adımı kaldırmaktır. Önce sürtünmeyi bulun."
+  },
+  {
+    "category": "products",
+    "linked": "Bir ürünün iyi görünmesi yetmez. Kargoda kırılma riski, beden/uyum sorunu veya iade ihtimali kârlılığı değiştirebilir.",
+    "plain": "Ürün seçerken yalnızca satış fiyatını değil, iadeyi, reklam maliyetini, müşteri desteğini ve teslimat riskini de düşünün. Gerçek marj burada ortaya çıkar."
+  },
+  {
+    "category": "tips",
+    "linked": "Ürün sayfasında müşterinin en sık sorduğu sorular görünür mü? Belirsizlik azaldıkça satın alma kararı vermek kolaylaşabilir.",
+    "plain": "Bir ürün sayfasını test etmek için yeni gelen biri gibi bakın: Ne satılıyor, kime uygun, ne zaman gelir, iade nasıl yapılır? Sorular cevapsızsa sorun vardır."
+  },
+  {
+    "category": "stores",
+    "linked": "Farklı pazarlardaki Shopify mağazaları aynı ürünü farklı dille anlatabiliyor. Konumlandırmayı incelerken ülke ve müşteri kitlesini ayırın.",
+    "plain": "Bir markanın ABD’de kullandığı mesajı Türkiye’ye aynen çevirmek her zaman iyi fikir değil. Kültür, fiyat algısı ve alışveriş beklentisi değişebilir."
+  },
+  {
+    "category": "ads",
+    "linked": "Reklamda problem net gösteriliyorsa izleyici ürünü daha hızlı anlayabilir. \"Önce/sonra\" iddialarını ise kanıt olmadan kullanmayın.",
+    "plain": "Güven oluşturan reklam her zaman en iddialı reklam değildir. Sade kullanım gösterimi ve dürüst beklenti, abartılı vaatlerden daha sürdürülebilir olabilir."
+  },
+  {
+    "category": "products",
+    "linked": "Rakipler aynı ürünü farklı fiyatlardan satıyorsa tek başına fiyata odaklanmayın. Paket, marka ve teslimat deneyimini karşılaştırın.",
+    "plain": "Pazar araştırmasında \"bu ürün pahalı\" demeden önce sunulan değeri inceleyin. Aynı ürün bile aksesuar, hizmet veya paketle farklılaşabilir."
+  },
+  {
+    "category": "stores",
+    "linked": "Bir mağazanın ürün kataloğu sık yenileniyorsa bu ilginç bir araştırma konusu olabilir. Yine de tek başına büyüme kanıtı değildir.",
+    "plain": "Mağaza analizinde değişimin yönünü takip edin. Yeni ürünler, yeni reklamlar ve farklı fiyat denemeleri bir hipotez verir; kesin sonuç değil."
+  },
+  {
+    "category": "tips",
+    "linked": "Reklam bütçesini artırmadan önce ölçüm altyapınızı kontrol edin. Yanlış atıfla iyi görünen kampanya işletmeyi yanlış yönlendirebilir.",
+    "plain": "Tıklama ucuz diye kampanya kârlı olmaz. Satın alma oranı, katkı marjı ve tekrar alışveriş gibi verileri birlikte değerlendirmek gerekir."
+  },
+  {
+    "category": "stores",
+    "linked": "Haftanın mağaza araştırmasını yaparken ürün, trafik ve reklam sinyallerini tek ekranda birleştirmeyi deneyin. Hikâye daha netleşir.",
+    "plain": "Bir e-ticaret markasını değerlendirirken tek bir sayıya âşık olmayın. Rakamlar soruyu başlatır; ürün, müşteri ve pazarlama stratejisi cevabı şekillendirir."
+  }
+]

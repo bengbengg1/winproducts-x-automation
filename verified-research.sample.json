@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "category": "stores",
+      "name": "ONAYLANMIS_MAGAZA_ADI",
+      "asOf": "2026-10-31",
+      "approved": false,
+      "facts": [
+        "Gercek ve izinli kaynaklardan dogrulanmis magaza bilgisi buraya yazilmali."
+      ]
+    }
+  ]
+}

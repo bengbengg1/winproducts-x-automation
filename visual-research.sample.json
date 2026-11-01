@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "postId": "20261101-URL",
+      "category": "stores",
+      "approved": false,
+      "asOf": "2026-10-31",
+      "name": "GERÇEK MAĞAZA ADI",
+      "title": "Gerçek mağaza: araştırma özeti",
+      "storeScreenshot": "assets/sources/store-20261101.png",
+      "panelScreenshot": "assets/sources/panel-20261101.png",
+      "metrics": [
+        {"label":"Tahmini aylık trafik", "value":"Gerçek değer"},
+        {"label":"Tahmini aylık satış", "value":"Gerçek değer"},
+        {"label":"Veri tarihi", "value":"2026-10-31"}
+      ]
+    }
+  ]
+}

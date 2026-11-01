@@ -1,0 +1,20 @@
+{
+  "stores": [
+    {
+      "name": "Pilloway",
+      "url": "https://www.pilloway.shop/",
+      "category": "stores",
+      "limit": 8,
+      "enabled": false,
+      "note": "Kullanıcının örnek görseline benzer marka. Etkinleştirmeden önce doğru mağaza olup olmadığını kontrol edin."
+    },
+    {
+      "name": "The Faith Made",
+      "url": "https://the-faith-made.com/",
+      "category": "products",
+      "limit": 8,
+      "enabled": false,
+      "note": "Örnek; etkinleştirmeden önce mağaza adresini doğrulayın."
+    }
+  ]
+}

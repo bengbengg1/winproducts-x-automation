@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "id": "ornek-kayit-01",
+      "category": "products",
+      "approved": false,
+      "productName": "GERCEK_URUN_ADI",
+      "storeName": "GERCEK_MAGAZA_ADI",
+      "productUrl": "https://example.com/products/example",
+      "storeUrl": "https://example.com",
+      "checkedAt": "2026-10-31",
+      "insight": "Kaynakla doğrulanmış özgün bir satış açısı.",
+      "takeaway": "Aynı ürünün satış sayfası teklif açısından incelendi.",
+      "signals": {
+        "trafficGrowthPct": 0,
+        "activeAds": 0,
+        "editorialPriority": 0
+      },
+      "evidence": [
+        {
+          "url": "https://example.com/products/example",
+          "summary": "Ürün sayfası doğrulandı",
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "captureMethod": "winproducts-chrome-extension",
+      "screenshotApproved": false,
+      "screenshots": {
+        "linked": "assets/sources/2026-11-01/ornek-kayit-01-linked.png",
+        "plain": "assets/sources/2026-11-01/ornek-kayit-01-plain.png"
+      }
+    }
+  ]
+}
